@@ -1,0 +1,46 @@
+// COLOR VARIABLES 
+$primary-background_color: hsl(212, 23%, 69%);
+$secondary-background_color: hsl(210, 46%, 95%);
+$primary-text-color: hsl(214, 17%, 51%);
+$secondary-text-color: hsl(217, 19%, 35%);
+
+
+// FONT VARIABLES
+$font-heading: 'Manrope', sans-serif;
+
+
+// RESPONSIBE BREAKPOINTS
+$bp-largest: 75em;   // 1200px
+$bp-large: 62.5em;   // 1000px
+$bp-medium: 50em;    // 800px;
+$bp-small: 37.5em;    // 600px;
+
+
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+    outline: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%; // 10px/16px = 62.5% -> 1rem = 10px
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-weight: 500;
+}
+
+

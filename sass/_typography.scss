@@ -1,0 +1,18 @@
+%heading {
+    font-family: $font-heading;
+    font-weight: 700;
+}
+
+.heading-1{
+    @extend %heading;
+    font-size: 4.5rem;
+    color: $secondary-text-color;
+}
+
+
+
+
+.mb-sm { margin-bottom: 2rem; }
+.mb-md { margin-bottom: 3rem; }
+.mb-lg { margin-bottom: 4rem; }
+.mb-hg { margin-bottom: 8rem; }
