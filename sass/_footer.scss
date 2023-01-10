@@ -1,0 +1,30 @@
+
+#footer {
+  display: flex;
+  margin-top: 2rem;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 10rem;
+
+  .profile {
+    display: flex;
+    align-items: center;
+    width: 90%;
+  }
+  .profile-img {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin-right: 2rem;
+  }
+  .name {
+    align-content: flex-end;
+  }
+}
+
+
+
+
+.attribution{
+    height: 100vh;
+}
