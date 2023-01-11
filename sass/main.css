@@ -13,19 +13,26 @@ html {
   box-sizing: border-box;
   font-size: 62.5%;
 }
-@media only screen and (max-width: 375px) {
-  html {
-    font-size: 50%;
-  }
+
+#main-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
-@media only screen and (max-width: 375px) {
-  .container {
-    flex-direction: column;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+@media (min-width: 375px) {
+  #main-container {
+    background-color: hsl(210deg, 46%, 95%);
+  }
+  #main-container .container {
+    flex-direction: row;
   }
 }
 .heading-1 {
@@ -43,62 +50,41 @@ p {
   font-size: 1.6rem;
 }
 
-.mb-sm {
-  margin-bottom: 2rem;
-}
-
-.mb-md {
-  margin-bottom: 3rem;
-}
-
-.mb-lg {
-  margin-bottom: 4rem;
-}
-
-.mb-hg {
-  margin-bottom: 8rem;
-}
-
 #footer {
   display: flex;
-  margin-top: 2rem;
-  align-items: center;
   justify-content: space-between;
-  margin-top: 10rem;
+  margin-top: 2rem;
 }
 #footer .profile {
   display: flex;
   align-items: center;
-  width: 90%;
 }
-#footer .profile-img {
+#footer .profile .profile-img {
   border-radius: 50%;
-  width: 50px;
-  height: 50px;
-  margin-right: 2rem;
-}
-#footer .name {
-  align-content: flex-end;
-}
-
-.attribution {
-  height: 100vh;
+  width: 5rem;
+  height: 5rem;
 }
 
 #image {
-  width: 100%;
+  width: 375px;
 }
 #image .img {
   width: 100%;
-  height: 25rem;
   -o-object-fit: cover;
      object-fit: cover;
 }
 
+@media (min-width: 375px) {
+  #image {
+    max-width: 100%;
+  }
+}
 #content {
   padding: 2rem;
 }
+#content .heading-1 {
+  margin-bottom: 2rem;
+}
 #content .text {
-  line-height: 2.5rem;
-  text-align: left;
+  line-height: 2.2rem;
 }/*# sourceMappingURL=main.css.map */
