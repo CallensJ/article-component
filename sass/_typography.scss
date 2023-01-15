@@ -3,9 +3,11 @@
     font-weight: 700;
 }
 
-.heading-1{
+.content__heading-1{
     @extend %heading;
     font-size: 2rem;
     color: $secondary-text-color;
+    font-family: $font-heading;
+    font-weight: 700;
 }
 

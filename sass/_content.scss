@@ -1,1 +1,23 @@
 
+.content{
+    max-width: 375px;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    padding: 0 3rem;
+
+    &__heading-1{
+        margin-bottom: 2rem;
+        line-height: 2.6rem;
+    }
+
+    &__text{
+        max-width: 100%;
+        color: $primary-text-color;
+        font-size: 1.4rem;
+        line-height: 2.2rem;
+        font-family: $font-heading;
+        font-weight: 500;
+        
+    }
+
+}
