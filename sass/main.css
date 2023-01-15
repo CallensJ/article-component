@@ -15,6 +15,10 @@ html {
   font-size: 62.5%;
 }
 
+body {
+  background-color: hsl(212deg, 23%, 69%);
+}
+
 #hero {
   display: flex;
   justify-content: center;
@@ -23,9 +27,14 @@ html {
 }
 
 #container {
-  border: 1px solid black;
+  max-width: 800px;
 }
 
+@media (min-width: 375px) {
+  #container {
+    display: flex;
+  }
+}
 .content__heading-1 {
   font-family: "Manrope", sans-serif;
   font-weight: 700;
@@ -39,13 +48,15 @@ html {
 }
 
 .footer {
-  margin-top: 2rem;
+  margin-top: 5rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 .footer .icon-share {
   margin-right: 1rem;
+  width: 15px;
+  height: 13px;
 }
 .footer .profile {
   width: 100%;
@@ -70,6 +81,11 @@ html {
   margin-right: 1rem;
 }
 
+@media (min-width: 375px) {
+  .footer {
+    justify-content: flex-end;
+  }
+}
 .image {
   max-width: 375px;
   height: auto;
@@ -77,11 +93,18 @@ html {
      object-fit: cover;
 }
 
+@media (min-width: 375px) {
+  .image-container {
+    width: 35%;
+  }
+  .image-container .image {
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+  }
+}
 .content {
-  max-width: 375px;
-  margin-top: 3rem;
-  margin-bottom: 3rem;
-  padding: 0 3rem;
+  padding: 3rem 3rem 1rem 3rem;
+  background-color: hsl(210deg, 46%, 95%);
 }
 .content__heading-1 {
   margin-bottom: 2rem;
@@ -94,4 +117,11 @@ html {
   line-height: 2.2rem;
   font-family: "Manrope", sans-serif;
   font-weight: 500;
+}
+
+@media (min-width: 375px) {
+  .content {
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+  }
 }/*# sourceMappingURL=main.css.map */

@@ -1,5 +1,5 @@
 .footer {
-  margin-top: 2rem;
+  margin-top: 5rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -7,6 +7,8 @@
 
   .icon-share{
     margin-right: 1rem;
+    width:15px;
+     height: 13px;
   }
 
   .profile {
@@ -38,3 +40,12 @@
     margin-right: 1rem;
   }
 }
+
+
+    
+    
+@media(min-width: 375px){
+    .footer{
+        justify-content: flex-end;
+    }
+  }

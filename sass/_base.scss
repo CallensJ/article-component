@@ -28,6 +28,9 @@ html {
   font-size: 62.5%; // 10px/16px = 62.5% -> 1rem = 10px
   
 }
+body{
+  background-color: $primary-background_color;
+}
 
 #hero{
   display: flex;
@@ -36,11 +39,16 @@ html {
   height: 100vh;
 
 }
+
 #container{
-  border: 1px solid black;
+  max-width: 800px;
 }
 
 
 @media(min-width: 375px){
+  #container{
+    display:flex;
+  
+  }
   
 }

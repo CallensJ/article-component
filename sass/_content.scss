@@ -1,9 +1,8 @@
 
 .content{
-    max-width: 375px;
-    margin-top: 3rem;
-    margin-bottom: 3rem;
-    padding: 0 3rem;
+    padding: 3rem 3rem 1rem 3rem;
+    background-color: $secondary-background_color;
+
 
     &__heading-1{
         margin-bottom: 2rem;
@@ -21,3 +20,11 @@
     }
 
 }
+
+@media(min-width: 375px){
+        .content{
+            border-top-right-radius: 1rem;
+            border-bottom-right-radius: 1rem;
+        }
+        
+      }
