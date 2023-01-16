@@ -48,8 +48,7 @@
     background-color: $secondary-text-color;
     padding: 1rem 2rem;
     border-radius: 1rem;
-    position: absolute; 
-    
+    position: absolute;
     top: 55%;
     right: -10%;
     
@@ -68,13 +67,20 @@
       font-weight: 500;
       letter-spacing: .4rem;
     }
-    .triangle {
-      display : inline-block;
-      height : 0;
-      width : 0;
-      border-right : 9px solid transparent;
-      border-bottom : 15px solid red;
-      border-left : 9px solid transparent;
+    .relative-triangle{
+
+      .absolute-triangle {
+        display : inline-block;
+        height : 0;
+        width : 0;
+        border-right : 9px solid transparent;
+        border-bottom : 15px solid $secondary-text_color;
+        border-left : 9px solid transparent;
+        position: absolute;
+        left: 50%;
+        top: 100%;
+        rotate:(180deg)
+      }
     }
   }
 }
