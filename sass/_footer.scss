@@ -3,34 +3,37 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  
 
-  .icon-share{
-    margin-right: 1rem;
-    width:15px;
-     height: 13px;
+  button{
+    background-color: $primary-background_color;
+    border-radius: 50%;
+    padding: 1rem;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    
   }
+  
 
   .profile {
     width: 100%;
     display: flex;
-    
     align-items: center;
 
     .profile__content {
-        
       h1 {
         font-family: $font-heading;
         font-weight: 500;
         font-size: 1.4rem;
         color: $secondary-text-color;
         font-weight: 700;
-
-    }
-    .date {
-      color: $primary-background_color;
-      font-size: 1.4rem;
-    }
+      }
+      .date {
+        color: $primary-background_color;
+        font-size: 1.4rem;
+      }
     }
   }
   .profile-image {
@@ -41,11 +44,8 @@
   }
 }
 
-
-    
-    
-@media(min-width: 375px){
-    .footer{
-        justify-content: flex-end;
-    }
+@media (min-width: 375px) {
+  .footer {
+    justify-content: flex-end;
   }
+}

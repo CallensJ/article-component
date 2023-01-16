@@ -53,10 +53,15 @@ body {
   justify-content: space-between;
   align-items: center;
 }
-.footer .icon-share {
-  margin-right: 1rem;
-  width: 15px;
-  height: 13px;
+.footer button {
+  background-color: hsl(212deg, 23%, 69%);
+  border-radius: 50%;
+  padding: 1rem;
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
+  outline: none;
+  border: none;
 }
 .footer .profile {
   width: 100%;
