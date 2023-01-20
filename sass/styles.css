@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.3rem;
+  background-color: hsl(210deg, 46%, 95%);
+}
+
+.container {
+  background-color: #ffffff;
+}
+.container .image__container {
+  width: 375px;
+  margin-bottom: 1rem;
+}
+.container .image__container .image {
+  width: 100%;
+}
+.container .text__container {
+  padding: 2rem;
+}
+.container .text__container .heading {
+  color: hsl(217deg, 19%, 35%);
+  font-size: 2rem;
+  font-family: "Manrope", sans-serif;
+  font-weight: 700;
+  padding-bottom: 1rem;
+}
+.container .text__container .text {
+  color: hsl(214deg, 17%, 51%);
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+}
+.container .text__container .footer__container {
+  margin-top: 1rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.container .text__container .footer__container .profil__container {
+  display: flex;
+  align-items: center;
+}
+.container .text__container .footer__container .profil__container .profil__image {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  margin-right: 1rem;
+}
+.container .text__container .footer__container .profil__container .profil__content h1 {
+  font-size: 1.3rem;
+  font-family: "Manrope", sans-serif;
+  color: hsl(217deg, 19%, 35%);
+  letter-spacing: 0.1rem;
+}
+.container .text__container .footer__container .profil__container .profil__content span {
+  color: hsl(214deg, 17%, 51%);
+}
+.container .text__container .footer__container .btn {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+}
+
+@media (min-width: 375px) {
+  section {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+  }
+  section .container {
+    display: flex;
+    border-radius: 1rem;
+    width: 800px;
+    height: 300px;
+  }
+  section .container .image__container {
+    width: 800px;
+    height: auto;
+  }
+  section .container .image__container .image {
+    height: 300px;
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+  }
+  section .container .text__container .footer__container {
+    margin-top: 3rem;
+  }
+}/*# sourceMappingURL=styles.css.map */
