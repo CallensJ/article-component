@@ -28,7 +28,7 @@ body {
   padding: 2rem;
 }
 .container .text__container .heading {
-  color: hsl(217deg, 19%, 35%);
+  color: rgb(72, 85, 106);
   font-size: 2rem;
   font-family: "Manrope", sans-serif;
   font-weight: 700;
@@ -60,7 +60,7 @@ body {
 .container .text__container .footer__container .profil__container .profil__content h1 {
   font-size: 1.3rem;
   font-family: "Manrope", sans-serif;
-  color: hsl(217deg, 19%, 35%);
+  color: rgb(72, 85, 106);
   letter-spacing: 0.1rem;
 }
 .container .text__container .footer__container .profil__container .profil__content span {
@@ -95,6 +95,25 @@ body {
     height: 300px;
     border-top-left-radius: 1rem;
     border-bottom-left-radius: 1rem;
+  }
+  section .container .text__container {
+    position: relative;
+  }
+  section .container .text__container .modal {
+    display: flex;
+    justify-content: space-between;
+    color: hsl(214deg, 17%, 51%);
+    border: 1px solid black;
+    border-radius: 1rem;
+    background-color: rgb(72, 85, 106);
+    position: absolute;
+    top: 65%;
+    right: -10%;
+    width: 12rem;
+    padding: 1rem 2rem 1rem 2rem;
+  }
+  section .container .text__container .hidden {
+    display: none;
   }
   section .container .text__container .footer__container {
     margin-top: 3rem;
